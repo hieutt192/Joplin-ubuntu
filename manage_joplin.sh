@@ -213,7 +213,7 @@ installJoplin() {
         
         local joplin_download_path=$(get_appimage_path "install")
         
-        local icon_url="https://raw.githubusercontent.com/laurent22/joplin/master/Resources/appIcon.png"
+        local icon_url="https://raw.githubusercontent.com/hieutt192/Joplin-ubuntu/main/images/joplin-icon.png"
         
         echo "📁 Creating installation directory ${JOPLIN_INSTALL_DIR}..."
         sudo mkdir -p "$JOPLIN_INSTALL_DIR"

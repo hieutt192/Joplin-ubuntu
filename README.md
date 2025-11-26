@@ -3,13 +3,13 @@
 ---
 ## 🚀 Quick Start (One-Line Installation)
 
-Run this command to install/update Cursor directly without cloning the repository:
+Run this command to install/update Joplin directly without cloning the repository:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/hieutt192/Cursor-ubuntu/refs/heads/main/manage_cursor.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/hieutt192/Joplin-ubuntu/refs/heads/main/manage_joplin.sh)"
 ```
 
-> **Note:** For Ubuntu 24.04 installation, please switch to the `Cursor-ubuntu24.04` branch or visit: [Link](https://github.com/hieutt192/Cursor-ubuntu/tree/Cursor-ubuntu24.04)
+> **Note:** For Ubuntu 24.04 installation, please switch to the `Joplin-ubuntu24.04` branch or visit: [Link](https://github.com/hieutt192/Joplin-ubuntu/tree/Joplin-ubuntu24.04)
 
 ---
 
@@ -18,11 +18,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/hieutt192/Cursor-ubuntu/
 When you run the script, you'll see a user-friendly menu interface:
 
 ```
-   ______                              ___    ____   ________  ______
-  / ____/_  ________________  _____   /   |  /  _/  /  _/ __ \/ ____/
- / /   / / / / ___/ ___/ __ \/ ___/  / /| |  / /    / // / / / __/   
-/ /___/ /_/ / /  (__  ) /_/ / /     / ___ |_/ /   _/ // /_/ / /___   
-\____/\__,_/_/  /____/\____/_/     /_/  |_/___/  /___/_____/_____/   
+       __            ___     
+      / /___  ____  / (_)___ 
+ __  / / __ \/ __ \/ / / __ \
+/ /_/ / /_/ / /_/ / / / / / /
+\____/\____/ .___/_/_/_/ /_/ 
+          /_/
                                                                      
 For Ubuntu 22.04
 -------------------------------------------------
@@ -30,21 +31,21 @@ For Ubuntu 22.04
  ( o.o )
   > ^ <
 ------------------------
-1. 💿 Install Cursor
-2. 🆙 Update Cursor
-3. 🗑️ Uninstall Cursor
+1. 💿 Install Joplin
+2. 🆙 Update Joplin
+3. 🗑️ Uninstall Joplin
 Note: If the menu reappears after choosing an option, check any error message above.
 ------------------------
 Please choose an option (1, 2, or 3): 
 ```
 
-This is a guideline and script for installing or updating Cursor on Ubuntu 22.04.
+This is a guideline and script for installing or updating Joplin on Ubuntu 22.04.
 
 ## ✨ Features
 - 🚀 **One-line Installation:** Install directly from GitHub without cloning
-- 📦 **Auto-download:** Automatically fetches latest Cursor AppImage 
+- 📦 **Auto-download:** Automatically fetches latest Joplin AppImage 
 - 🔄 **Easy Update:** Update to newest version with single command
-- 🗑️ **Complete Uninstall:** Remove Cursor and all related files
+- 🗑️ **Complete Uninstall:** Remove Joplin and all related files
 - 🎨 **Icon Selection:** Choose your preferred application icon
 - 🖥️ **Desktop Integration:** Automatic menu entry creation
 
@@ -58,8 +59,8 @@ This is a guideline and script for installing or updating Cursor on Ubuntu 22.04
 ---
 
 ## 🎨 Available Icons
-- <img src="images/cursor-icon.png" alt="Cursor Icon" width="24"/> `cursor-icon.png` – Standard Cursor logo with blue background  
-- <img src="images/cursor-black-icon.png" alt="Cursor Black Icon" width="24"/> `cursor-black-icon.png` – Cursor logo with dark background
+- <img src="images/Joplin-icon.png" alt="Joplin Icon" width="24"/> `Joplin-icon.png` – Standard Joplin logo with blue background  
+- <img src="images/Joplin-black-icon.png" alt="Joplin Black Icon" width="24"/> `Joplin-black-icon.png` – Joplin logo with dark background
 
 ---
 
@@ -75,7 +76,7 @@ This is a guideline and script for installing or updating Cursor on Ubuntu 22.04
 If you encounter any issues:
 1. **Permission errors:** Ensure you have `sudo` privileges and active internet connection
 2. **Script fails to download:** Check your network connection and try again
-3. **Cursor won't start:** The script handles `libfuse2` automatically, but you can verify with:
+3. **Joplin won't start:** The script handles `libfuse2` automatically, but you can verify with:
    ```bash
    sudo apt update && sudo apt install libfuse2
    ```
@@ -100,7 +101,7 @@ If you encounter any issues:
 **Ubuntu Compatibility:** Added version checking and automatic libfuse2 installation for Ubuntu 22.04
 
 ### 2.0 
-**Auto-download System:** Implemented automatic Cursor AppImage fetching with manual fallback option
+**Auto-download System:** Implemented automatic Joplin AppImage fetching with manual fallback option
 
 ### 1.0 
 **Initial Release:** Basic installation and update functionality with manual AppImage path
